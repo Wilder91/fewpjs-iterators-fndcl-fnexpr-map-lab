@@ -13,5 +13,6 @@ const tutorials = [
 
 const titleCased = () => {
   // use the .map method on the tutorials to return a new array
-  return tutorials
+  const cap = tutorials.map(titleCased)
+  return cap
 }
